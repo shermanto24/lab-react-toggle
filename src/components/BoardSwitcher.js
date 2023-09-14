@@ -13,7 +13,7 @@ function BoardSwitcher(props) {
   const [currentBoard, setCurrentBoard] = useState(0);
 
   const toggleBoardSwitch = (event) => {
-    setCurrentBoard(currentBoard + 1);
+    setCurrentBoard(currentBoard + 1); // can move the % here
   }
 
   let boards = [];
